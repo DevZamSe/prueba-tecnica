@@ -1,0 +1,86 @@
+.main{
+    width: 100vw;
+    height: 100vh;  
+    margin: 0;
+    padding: 0;
+    .top{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        padding-left: 4rem;
+        background-color: #333333;
+        .title{
+            font-size: 75px;
+            color: #ffffff;
+            font-weight: bold;
+            font-family: 'Comic Neue', cursive;
+        }
+        .sub__title{
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: bold;
+            font-family: 'Comic Neue', cursive;
+        }
+    }
+    .content__container{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .content__manager{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 1rem;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            .content__item{
+                width:90%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                .titles{
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    .story__title{
+                        font-size: 13pt;
+                        color: #333;
+                        font-family: 'Comic Neue', cursive;
+                        font-weight: 700;
+
+                    }
+                    .autor{
+                        color: #999;
+                        font-family: 'Comic Neue', cursive;
+
+                    }
+                }
+                .time{
+                    width: 15%;
+                    font-family: 'Comic Neue', cursive;
+                    font-weight: 700;
+                }
+                a:hover{
+                    cursor: pointer;
+                }
+            }
+            .divider{
+                width: 95%;
+                border-top: 2px solid #bbb;
+            }
+        }
+        .content__manager:hover{
+            background-color: #fafafa;
+        }
+    }
+}
